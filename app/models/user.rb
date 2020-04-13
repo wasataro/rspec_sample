@@ -9,7 +9,7 @@ class User < ApplicationRecord
   def disp_name
     if self.age > 19
       return "#{self.name}さん"
-    elsif　self.age > 10
+    elsif self.age > 10
       return "#{self.name}君"
     elsif self.age > 0
       return "#{self.name}ちゃん"
